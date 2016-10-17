@@ -7,6 +7,6 @@ function onRequest(request, response) {
   response.end();
 }
 
-http.createServer(onRequest).listen(8888);
+http.createServer(onRequest).listen(8000);
 
 console.log("Server has started.");
